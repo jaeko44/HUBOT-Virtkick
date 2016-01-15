@@ -5,13 +5,13 @@
 #   "githubot": "0.4.x"
 #
 # Configuration:
-#   HUBOT_GITHUB_TOKEN
+#   HUBOT_GITHUB_TOKEN 
 #   HUBOT_GITHUB_USER
 #   HUBOT_GITHUB_REPO
 #   HUBOT_GITHUB_API - Optional
 #
 # Commands:
-#   [user/repository] Issue created by author (assigned to assignee)
+#   [user/repository] (.*) 
 #
 # Notes:
 #   Setup Slack integration with GITHUB followed by the repositories you would like to watch.
