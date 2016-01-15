@@ -10,7 +10,8 @@
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.2",
-    "hubot-heroku-keepalive": "^1.0.1",
+    "hubot-heroku-keepalive": "1.0.1",
+    "hubot-test-helper": ">=1.4.0",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -25,5 +26,8 @@
   },
   "engines": {
     "node": "0.10.x"
+  },
+  "devDependencies": {
+    "hubot-test-helper": "^1.4.0"
   }
 }
